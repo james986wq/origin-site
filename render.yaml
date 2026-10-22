@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: origin-restricted-proxy
+    runtime: node
+    rootDir: proxy-server
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /healthz
+    envVars:
+      - key: UPSTREAM_ORIGIN
+        sync: false
