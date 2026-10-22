@@ -1,0 +1,1 @@
+This starter code was generated for the Origin project. Dependencies retain their respective licenses. No Arsenic source code is included. If you fork or redistribute third-party projects, preserve their license and notices.

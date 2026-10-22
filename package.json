@@ -1,0 +1,10 @@
+{
+  "name": "origin-restricted-proxy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Allowlisted reverse proxy starter for an upstream service you own or are authorized to operate.",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=20" },
+  "dependencies": { "express": "^4.21.2", "http-proxy-middleware": "^3.0.5", "helmet": "^8.0.0", "express-rate-limit": "^7.5.0" }
+}
